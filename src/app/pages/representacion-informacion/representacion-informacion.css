@@ -1,0 +1,21 @@
+
+.toc__container__nav li  {
+  padding: 3px;
+} 
+
+.toc__container__nav li:hover {
+  background-color: #f8f8f8;
+  color: #000000;
+  padding: 3px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+} 
+
+.toc__container__nav li:active {
+  background-color: #6a6a6a;
+  color: #000000;
+  text-decoration: none;
+  user-select: none;
+  padding: 3px;
+  border-radius: 0.5rem;
+}
