@@ -1,4 +1,8 @@
 
+.toc {
+  margin: 40px 0;
+}
+
 .toc__container__nav li  {
   padding: 3px;
 } 
@@ -18,4 +22,15 @@
   user-select: none;
   padding: 3px;
   border-radius: 0.5rem;
+}
+
+.article__content_box {
+  background-color: #3a3a3a;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.article__header, .section__header {
+  margin: 1rem 0;
 }
