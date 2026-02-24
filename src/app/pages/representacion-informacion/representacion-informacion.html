@@ -6,11 +6,16 @@
     <nav class="toc__nav">
       <ul class="toc__upper_list">
         <li class="toc__item">
-        > 1. Los números y los sistemas de representación
+          <a [routerLink]="[]" fragment="1_numeros_y_sistemas">
+            > 1. Los números y los sistemas de representación
+          </a>
         </li>
         <ul class="toc__second_list ml-6">
           <li class="toc__item">
-          > 1.1. Sistemas de representación</li>
+            <a [routerLink]="[]" fragment="1_1_sistemas_representacion">
+              > 1.1. Sistemas de representación
+            </a>
+        </li>
           <li class="toc__item">
           > 1.2. Sistemas de numeración posicionales</li>
           <li class="toc__item">
@@ -38,14 +43,14 @@
   </section>
   <section>
     <header>
-      <h3>Los números y los sistemas de representación</h3>
+      <h3 id="1_numeros_y_sistemas">1. Los números y los sistemas de representación</h3>
       <p>Queremos identificar los sistemas de numeración que usamos y que parámetros se usan para definirlos. Veremos conceptos como <span>raiz</span>(o <span>base</span>) y peso asociado a la posición del dígito.</p>
       <p>Posteriomete vamos a ver las técnicas que se usan para encontrar la representación de un número en un sistema posicional cuando cambiamos de base.</p>
       <p>Por ultimo, analizaremos las operaciones de suma, resta, multiplicación y división de números por potencias de la base de numeración.</p>
     </header>
     <article>
       <header>
-        <h4>Sistemas de representación</h4>
+        <h4 id="1_1_sistemas_representacion">1.1. Sistemas de representación</h4>
       </header>
       <div></div>
     </article>
